@@ -1,0 +1,36 @@
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #0940f6;
+    color: #fff;
+    flex-wrap: wrap;
+  }
+
+  .row  {
+    margin-left: 5px;
+  }
+  
+  h1 {
+    font-style: italic;
+    font-size: 250%;
+    padding: 18px;
+  }
+
+  h2 {
+    margin: 37px;
+    font-size: 30px;
+  }
+
+  .Search {
+    margin-left: 50px;
+  }
+
+  .button {
+    margin-top: 15px; 
+    margin-left: 50px;   
+    }
+
+  .weather {
+    display: none;
+  }
