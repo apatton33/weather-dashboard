@@ -27,7 +27,7 @@ function showweatherData(city) {
 
             var date = dayjs.unix(weatherData.list[0].dt).format("MM/DD/YYYY");
             dateE1.textContent = city + "" + date;
-            document.getElementById("future-header").textContent = "5 Day Forecast:"
+            document.getElementById("future-header").textContent = "6 Day Forecast:"
             futureE1.innerHTML = "";
             for (let i = 0; i < weatherData.list.length; i+=7) {
                 var col = document.createElement("div");
