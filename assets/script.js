@@ -14,7 +14,7 @@ var clearE1 = document.getElementById("clear-history");
 
 function showweatherData(city) {
     console.log(city);
-    fetch("http://api.openweathermap.org/geo/1.0/direct?q=" + city + "&limit=&appid=" + APIKey).then(function (response) {
+    fetch("https://api.openweathermap.org/geo/1.0/direct?q=" + city + "&limit=&appid=" + APIKey).then(function (response) {
       return response.json().then(function(data) {
         var lat = data[0].lat;
         var lon = data[0].lon;
